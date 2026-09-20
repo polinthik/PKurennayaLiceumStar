@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Куренная Полина — Кандидат в президенты Лицея «Звёздный»</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- ПРОГРЕСС-БАР -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ФОНОВЫЕ ЧАСТИЦЫ -->
+    <div class="particles" id="particles"></div>
+
+    <!-- ШАПКА -->
+    <header>
+        <a href="#" class="logo-placeholder" title="Лицей «Звёздный»">
+            <img src="logo.png" alt="Логотип Лицея «Звёздный»">
+        </a>
+
+        <!-- Кнопка-бургер -->
+        <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="#program">Программа</a></li>
+                <li><a href="#about">О кандидате</a></li>
+                <li><a href="#contact">Связаться</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ГЕРОЙ -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="subtitle">Выборы президента лицея 2026</div>
+            <h1 id="typedName"></h1>
+            <p>Кандидат в президенты Лицея «Звёздный». Вместе сделаем лицей ярче, комфортнее и интереснее для каждого!</p>
+            <p>"Лучший способ предсказать будущее - создать его"</p>
+            <div class="btn-group">
+                <a href="#program" class="btn btn-primary">Программа</a>
+                <a href="#about" class="btn btn-outline">О кандидате</a>
+            </div>
+        </div>
+        <div class="hero-image" title="Куренная Полина">
+            <img src="polina.jpg" alt="Куренная Полина">
+        </div>
+    </section>
+
+    <!-- СЧЁТЧИКИ -->
+    <section class="counters">
+        <div class="counter-item">
+            <span class="counter-number">
+                <span class="counter-value" data-target="1200">0</span><span class="counter-plus">+</span>
+            </span>
+            <div class="counter-label">Учеников лицея</div>
+        </div>
+        <div class="counter-item">
+            <span class="counter-number">
+                <span class="counter-value" data-target="15">0</span><span class="counter-plus">+</span>
+            </span>
+            <div class="counter-label">Новых идей</div>
+        </div>
+        <div class="counter-item">
+            <span class="counter-number">
+                <span class="counter-value" data-target="100">0</span><span class="counter-plus">%</span>
+            </span>
+            <div class="counter-label">Поддержки</div>
+        </div>
+        <div class="counter-item">
+            <span class="counter-number">
+                <span class="counter-value" data-target="1">0</span>
+            </span>
+            <div class="counter-label">Общая цель</div>
+        </div>
+    </section>
+
+    <!-- ПРОГРАММА -->
+    <section class="program" id="program">
+        <h2 class="section-title">Мои основные <span>цели</span></h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fa-solid fa-rocket card-icon"></i>
+                <h3>Инновационные перемены</h3>
+                <p>Внедрение новых форматов обучения, современных технологий и свежих идей, которые сделают лицей удобнее и интереснее для каждого.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-masks-theater card-icon"></i>
+                <h3>Досуг и события</h3>
+                <p>Больше ярких мероприятий: тематические вечера, квесты, спортивные турниры и встречи с интересными людьми.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-comments card-icon"></i>
+                <h3>Диалог и поддержка</h3>
+                <p>Открытый диалог с учениками, учёт ваших идей и создание комфортной атмосферы в лицее.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-tower-broadcast card-icon"></i>
+                <h3>Развитие школьных организаций</h3>
+                <p>Поддержка и развитие «Звёздного» радио и театра «Лампа»: новые эфиры, постановки и творческие проекты для всех лицеистов.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- О КАНДИДАТЕ -->
+    <section class="about" id="about">
+        <h2 class="section-title">Обо <span>мне</span></h2>
+
+        <!-- Логотип + цитата -->
+        <div class="about-intro">
+            <div class="about-logo">
+                <img src="logo.png" alt="Логотип Лицея «Звёздный»">
+            </div>
+            <div class="about-quote">
+                <i class="fa-solid fa-quote-left about-quote-icon"></i>
+                <p class="about-lead">Я иду в президенты школы, потому что хочу изменить её к лучшему.</p>
+            </div>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-card">
+                <i class="fa-solid fa-crown about-icon"></i>
+                <h3>Лидер</h3>
+                <p>Умею брать ответственность и вести за собой. У меня есть идеи и желание сделать школу удобнее и интереснее для всех.</p>
+            </div>
+
+            <div class="about-card">
+                <i class="fa-solid fa-scale-balanced about-icon"></i>
+                <h3>Честная и справедливая</h3>
+                <p>Мои слова не расходятся с делом. Я справедливая — ко всем отношусь одинаково и защищаю интересы учеников.</p>
+            </div>
+
+            <div class="about-card">
+                <i class="fa-solid fa-shield-halved about-icon"></i>
+                <h3>Решительная</h3>
+                <p>Спокойна даже в трудных ситуациях. Умею думать наперёд и планировать. Отвечаю за свои решения.</p>
+            </div>
+
+            <div class="about-card">
+                <i class="fa-solid fa-people-group about-icon"></i>
+                <h3>Умею объединять</h3>
+                <p>Работаю с людьми и объединяю их вокруг общего дела. Люблю свою школу и хочу, чтобы ученикам и учителям здесь было лучше.</p>
+            </div>
+
+            <div class="about-card">
+                <i class="fa-solid fa-star about-icon"></i>
+                <h3>Лицеистка с 1 класса</h3>
+                <p>Учусь в лицее с 1 класса — это научило меня ответственности, дисциплине и умению не сдаваться.</p>
+            </div>
+
+            <div class="about-card">
+                <i class="fa-solid fa-heart about-icon"></i>
+                <h3>Открыта к людям</h3>
+                <p>Умею слушать и говорить просто. Я готова работать для вас и нашей школы.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРИЗЫВ -->
+    <section class="cta" id="cta">
+        <h2>Голосуй за <span>Полину</span> — голосуй за перемены!</h2>
+        <p>Вместе мы сможем сделать Лицей «Звёздный» местом, куда хочется приходить каждый день. Твоя поддержка — это шаг к общему успеху!</p>
+        <a href="https://t.me/pkurennaya"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn btn-primary btn-pulse">
+            <i class="fa-brands fa-telegram"></i> Присоединиться к команде
+        </a>
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer id="contact">
+        <img src="logo.png" alt="Логотип Лицея «Звёздный»" class="footer-logo">
+        <span class="hashtag">#ПолинаДляЛицея</span>
+        <p>© 2026 Куренная Полина. Кандидат в президенты Лицея «Звёздный».</p>
+        <p>Сайт создан в поддержку предвыборной кампании.</p>
+    </footer>
+
+    <!-- КНОПКА ВВЕРХ -->
+    <button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
